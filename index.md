@@ -1,18 +1,18 @@
 # Introduction to single-cell RNA-seq data analysis
 
-### 2nd, 6th, 9th December 2024 || 09:30 - 17:30
+### 12th, 19th, 26th February 2025 || 09:30 - 17:00
 #### Online via Zoom
 
 ![](UnivCambridge_ScRnaSeqIntro_Base/Images/uniOfCamCrukLogos.png)
 
 ## Instructors
 
-* Abigail Edwards - Bioinformatics Core, Cancer Research UK Cambridge Institute
-* Adam Reid - Bioinformatics Core, Gurdon Institute
-* Betty Wang - Clinical Neurosciences, University of Cambridge
-* Chandra Chilamakuri - Bioinformatics Core, Cancer Research UK Cambridge Institute
-* Katarzyna Kania - Cosyne Therapeutics
-* Ramy Ragheb - Stem Cell Institute, Univeristy of Cambridge
+- Abbi Edwards (CRUK)
+- Betty Wang (Clinical Neurosciences)
+- Chandra Chilamakuri (CRUK)
+- Jiayin Hong (Sanger Institute)
+- Erin Doody (Sainsbury Laboratory)
+- Guest Speaker: Kasia Kania (Cosyne Therapeutics)
 
 ## Outline
 
@@ -55,17 +55,17 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 ### Day 1
 
 
-* 09:30 - 09:45 **Welcome** - Bajuna
+* 09:30 - 09:45 **Welcome** - Hugo
 * 09:45 - 10:30 **Introduction to Single Cell Technologies** - Katarzyna Kania
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/01_Introduction.pdf)
-* 10:30 - 10:44 **Preamble**: data set and workflow - Adam
+* 10:30 - 10:44 **Preamble**: data set and workflow - Chandra
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/02_PreambleSlides.html)
 * 10:45 - 11:00 - **Break**
-* 11:00 - 12:30 Library structure, **cellranger** for alignment and cell calling - Adam
+* 11:00 - 12:30 Library structure, **cellranger** for alignment and cell calling - Chandra
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/03_CellRangerSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/03_CellRangerSlides.pdf)\)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/03_CellRanger.html)
 * 12:30 - 13:30 **Lunch break**
-* 13:30 - 17:00 **QC and exploratory analysis** - Betty
+* 13:30 - 17:00 **QC and exploratory analysis** - Erin
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/04_QualityControlSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/04_QualityControlSlides.pdf)\)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/04_Preprocessing_And_QC.html)
         <!-- + [Demo live script](live_scripts/04_demonstration_live_script.R) -->
@@ -82,7 +82,7 @@ of gene expression data, such as TSNE, UMAP and violin plots.
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/05_Normalisation.html)    
     + [Practical](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/05_Normalisation_exercises.html)
 * 12:30 - 13:30 **lunch break**
-* 13:30 - 15:25 **Feature selection and dimensionality reduction** - Abbi
+* 13:30 - 15:25 **Feature selection and dimensionality reduction** - Jiayin
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.pdf)\)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/06_FeatureSelectionAndDimensionalityReduction.html)
 * 15:25 - 15:35 10 min **break**
@@ -92,17 +92,16 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 
 ### Day 3
 
-
-* 09:30 - 09:40 Recap - Chandra
-* 09:40 - 11:05 **Clustering** - Chandra
+* 09:30 - 09:40 Recap - Abbi
+* 09:40 - 11:05 **Cell clustering** - Abbi
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/08_ClusteringSlides.html)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/08_Clustering.html)
 * 11:05 - 11:15 10 min **break**
-* 11:15 - 12:30 **Identification of cluster marker genes** - Abbi
+* 11:15 - 12:30 **Identification of cluster marker genes** - Betty
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/09_ClusterMarkerGenes.html)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/09_Cluster_Marker_Genes.html)
 * 12:30 - 13:30 **lunch break**
-* 13:30 - 17.30 **Differential Expression and Abundance Analysis** - Adam
+* 13:30 - 17.30 **Differential Expression and Abundance Analysis** - Abbi (DE) & Chandra (DA)
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/10_DifferentialExpressionAndAbundance.pdf) 
     + [Demonstration - Differential Expression](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/10_Differential_Expression.html)
     + [Demonstration - Differential Abundance](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/11_Differential_Abundance.html)
@@ -117,7 +116,7 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 
 ## Software Installation
 
-You can make use of the computers in the Training Room, which are ready for use and have the necessary data & software installed.
+You can make use of the computer environment provided for the course, which is ready for use and have the necessary data & software installed.
 However, if you want to run the analysis on your own computer, you can follow these instructions.
 
 * Download and install R: https://cloud.r-project.org/
